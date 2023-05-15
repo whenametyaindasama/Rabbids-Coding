@@ -1,8 +1,8 @@
-#include "Button.hpp"
+#include "Sausage.hpp"
 
 using namespace std;
 
-void Button::Interact()
+void Sausage::Interact()
 {
-    cout << "Button Hit" << endl;
+    cout << "Sausage Sucked" << endl;
 }

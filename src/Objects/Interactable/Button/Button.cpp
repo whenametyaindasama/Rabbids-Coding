@@ -4,5 +4,5 @@ using namespace std;
 
 void Sausage::Interact()
 {
-    cout << "Sausage Sucked" << endl;
+    cout << "Button Hit" << endl;
 }
