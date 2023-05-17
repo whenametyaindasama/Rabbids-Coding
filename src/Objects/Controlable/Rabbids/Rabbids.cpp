@@ -3,7 +3,7 @@
 class Rabbids : public IControlable
 {
 private:
-    std::string objectSymbol = "V";
+    std::string objectSymbol = "R";
     std::unordered_map<Commands, ICommand *> _command;
     int _x;
     int _y;
