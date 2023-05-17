@@ -9,8 +9,8 @@
 class Rabbids : public IControlable
 {
 private:
-    std::string objectSymbol = "R";
-    std::unordered_map<Commands, ICommand*> _Command;
+    std::string objectSymbol = "A";
+    std::unordered_map<Commands, ICommand *> _Command;
     int _x;
     int _y;
     Directions _z;
@@ -19,9 +19,9 @@ private:
 public:
     Rabbids();
 
-    ICommand* setCommand(ICommand* command);
+    void setCommand(ICommand *command);
 
-    ICommand* getCommand(Commands commands);
+    ICommand *getCommand(Commands commands);
 
     void setPosition(int x, int y);
 
